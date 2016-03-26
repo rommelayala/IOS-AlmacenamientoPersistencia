@@ -1,0 +1,527 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A7A4E10B1CA60E1B00D2D8E1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4E10A1CA60E1B00D2D8E1 /* AppDelegate.swift */; };
+		A7A4E10D1CA60E1B00D2D8E1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4E10C1CA60E1B00D2D8E1 /* ViewController.swift */; };
+		A7A4E1101CA60E1B00D2D8E1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A4E10E1CA60E1B00D2D8E1 /* Main.storyboard */; };
+		A7A4E1131CA60E1B00D2D8E1 /* almacenamiento_persistencia.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A7A4E1111CA60E1B00D2D8E1 /* almacenamiento_persistencia.xcdatamodeld */; };
+		A7A4E1151CA60E1B00D2D8E1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A7A4E1141CA60E1B00D2D8E1 /* Assets.xcassets */; };
+		A7A4E1181CA60E1B00D2D8E1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7A4E1161CA60E1B00D2D8E1 /* LaunchScreen.storyboard */; };
+		A7A4E1231CA60E1B00D2D8E1 /* almacenamiento_persistenciaTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4E1221CA60E1B00D2D8E1 /* almacenamiento_persistenciaTests.swift */; };
+		A7A4E12E1CA60E1B00D2D8E1 /* almacenamiento_persistenciaUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A7A4E12D1CA60E1B00D2D8E1 /* almacenamiento_persistenciaUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A7A4E11F1CA60E1B00D2D8E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A4E0FF1CA60E1B00D2D8E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A4E1061CA60E1B00D2D8E1;
+			remoteInfo = "almacenamiento persistencia";
+		};
+		A7A4E12A1CA60E1B00D2D8E1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A7A4E0FF1CA60E1B00D2D8E1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A7A4E1061CA60E1B00D2D8E1;
+			remoteInfo = "almacenamiento persistencia";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A7A4E1071CA60E1B00D2D8E1 /* almacenamiento persistencia.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "almacenamiento persistencia.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A4E10A1CA60E1B00D2D8E1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		A7A4E10C1CA60E1B00D2D8E1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		A7A4E10F1CA60E1B00D2D8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		A7A4E1121CA60E1B00D2D8E1 /* almacenamiento_persistencia.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = almacenamiento_persistencia.xcdatamodel; sourceTree = "<group>"; };
+		A7A4E1141CA60E1B00D2D8E1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A7A4E1171CA60E1B00D2D8E1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		A7A4E1191CA60E1B00D2D8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A4E11E1CA60E1B00D2D8E1 /* almacenamiento persistenciaTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "almacenamiento persistenciaTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A4E1221CA60E1B00D2D8E1 /* almacenamiento_persistenciaTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = almacenamiento_persistenciaTests.swift; sourceTree = "<group>"; };
+		A7A4E1241CA60E1B00D2D8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A7A4E1291CA60E1B00D2D8E1 /* almacenamiento persistenciaUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "almacenamiento persistenciaUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A7A4E12D1CA60E1B00D2D8E1 /* almacenamiento_persistenciaUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = almacenamiento_persistenciaUITests.swift; sourceTree = "<group>"; };
+		A7A4E12F1CA60E1B00D2D8E1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A7A4E1041CA60E1B00D2D8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A4E11B1CA60E1B00D2D8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A4E1261CA60E1B00D2D8E1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A7A4E0FE1CA60E1B00D2D8E1 = {
+			isa = PBXGroup;
+			children = (
+				A7A4E1091CA60E1B00D2D8E1 /* almacenamiento persistencia */,
+				A7A4E1211CA60E1B00D2D8E1 /* almacenamiento persistenciaTests */,
+				A7A4E12C1CA60E1B00D2D8E1 /* almacenamiento persistenciaUITests */,
+				A7A4E1081CA60E1B00D2D8E1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A7A4E1081CA60E1B00D2D8E1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4E1071CA60E1B00D2D8E1 /* almacenamiento persistencia.app */,
+				A7A4E11E1CA60E1B00D2D8E1 /* almacenamiento persistenciaTests.xctest */,
+				A7A4E1291CA60E1B00D2D8E1 /* almacenamiento persistenciaUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A7A4E1091CA60E1B00D2D8E1 /* almacenamiento persistencia */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4E10A1CA60E1B00D2D8E1 /* AppDelegate.swift */,
+				A7A4E10C1CA60E1B00D2D8E1 /* ViewController.swift */,
+				A7A4E10E1CA60E1B00D2D8E1 /* Main.storyboard */,
+				A7A4E1141CA60E1B00D2D8E1 /* Assets.xcassets */,
+				A7A4E1161CA60E1B00D2D8E1 /* LaunchScreen.storyboard */,
+				A7A4E1191CA60E1B00D2D8E1 /* Info.plist */,
+				A7A4E1111CA60E1B00D2D8E1 /* almacenamiento_persistencia.xcdatamodeld */,
+			);
+			path = "almacenamiento persistencia";
+			sourceTree = "<group>";
+		};
+		A7A4E1211CA60E1B00D2D8E1 /* almacenamiento persistenciaTests */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4E1221CA60E1B00D2D8E1 /* almacenamiento_persistenciaTests.swift */,
+				A7A4E1241CA60E1B00D2D8E1 /* Info.plist */,
+			);
+			path = "almacenamiento persistenciaTests";
+			sourceTree = "<group>";
+		};
+		A7A4E12C1CA60E1B00D2D8E1 /* almacenamiento persistenciaUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A7A4E12D1CA60E1B00D2D8E1 /* almacenamiento_persistenciaUITests.swift */,
+				A7A4E12F1CA60E1B00D2D8E1 /* Info.plist */,
+			);
+			path = "almacenamiento persistenciaUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A7A4E1061CA60E1B00D2D8E1 /* almacenamiento persistencia */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A4E1321CA60E1B00D2D8E1 /* Build configuration list for PBXNativeTarget "almacenamiento persistencia" */;
+			buildPhases = (
+				A7A4E1031CA60E1B00D2D8E1 /* Sources */,
+				A7A4E1041CA60E1B00D2D8E1 /* Frameworks */,
+				A7A4E1051CA60E1B00D2D8E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "almacenamiento persistencia";
+			productName = "almacenamiento persistencia";
+			productReference = A7A4E1071CA60E1B00D2D8E1 /* almacenamiento persistencia.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A7A4E11D1CA60E1B00D2D8E1 /* almacenamiento persistenciaTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A4E1351CA60E1B00D2D8E1 /* Build configuration list for PBXNativeTarget "almacenamiento persistenciaTests" */;
+			buildPhases = (
+				A7A4E11A1CA60E1B00D2D8E1 /* Sources */,
+				A7A4E11B1CA60E1B00D2D8E1 /* Frameworks */,
+				A7A4E11C1CA60E1B00D2D8E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7A4E1201CA60E1B00D2D8E1 /* PBXTargetDependency */,
+			);
+			name = "almacenamiento persistenciaTests";
+			productName = "almacenamiento persistenciaTests";
+			productReference = A7A4E11E1CA60E1B00D2D8E1 /* almacenamiento persistenciaTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A7A4E1281CA60E1B00D2D8E1 /* almacenamiento persistenciaUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A7A4E1381CA60E1B00D2D8E1 /* Build configuration list for PBXNativeTarget "almacenamiento persistenciaUITests" */;
+			buildPhases = (
+				A7A4E1251CA60E1B00D2D8E1 /* Sources */,
+				A7A4E1261CA60E1B00D2D8E1 /* Frameworks */,
+				A7A4E1271CA60E1B00D2D8E1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A7A4E12B1CA60E1B00D2D8E1 /* PBXTargetDependency */,
+			);
+			name = "almacenamiento persistenciaUITests";
+			productName = "almacenamiento persistenciaUITests";
+			productReference = A7A4E1291CA60E1B00D2D8E1 /* almacenamiento persistenciaUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A7A4E0FF1CA60E1B00D2D8E1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0720;
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = Melo;
+				TargetAttributes = {
+					A7A4E1061CA60E1B00D2D8E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = HN5JPC5ZME;
+					};
+					A7A4E11D1CA60E1B00D2D8E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = HN5JPC5ZME;
+						TestTargetID = A7A4E1061CA60E1B00D2D8E1;
+					};
+					A7A4E1281CA60E1B00D2D8E1 = {
+						CreatedOnToolsVersion = 7.2.1;
+						DevelopmentTeam = HN5JPC5ZME;
+						TestTargetID = A7A4E1061CA60E1B00D2D8E1;
+					};
+				};
+			};
+			buildConfigurationList = A7A4E1021CA60E1B00D2D8E1 /* Build configuration list for PBXProject "almacenamiento persistencia" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A7A4E0FE1CA60E1B00D2D8E1;
+			productRefGroup = A7A4E1081CA60E1B00D2D8E1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A7A4E1061CA60E1B00D2D8E1 /* almacenamiento persistencia */,
+				A7A4E11D1CA60E1B00D2D8E1 /* almacenamiento persistenciaTests */,
+				A7A4E1281CA60E1B00D2D8E1 /* almacenamiento persistenciaUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A7A4E1051CA60E1B00D2D8E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A4E1181CA60E1B00D2D8E1 /* LaunchScreen.storyboard in Resources */,
+				A7A4E1151CA60E1B00D2D8E1 /* Assets.xcassets in Resources */,
+				A7A4E1101CA60E1B00D2D8E1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A4E11C1CA60E1B00D2D8E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A4E1271CA60E1B00D2D8E1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A7A4E1031CA60E1B00D2D8E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A4E1131CA60E1B00D2D8E1 /* almacenamiento_persistencia.xcdatamodeld in Sources */,
+				A7A4E10D1CA60E1B00D2D8E1 /* ViewController.swift in Sources */,
+				A7A4E10B1CA60E1B00D2D8E1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A4E11A1CA60E1B00D2D8E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A4E1231CA60E1B00D2D8E1 /* almacenamiento_persistenciaTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A7A4E1251CA60E1B00D2D8E1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7A4E12E1CA60E1B00D2D8E1 /* almacenamiento_persistenciaUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A7A4E1201CA60E1B00D2D8E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7A4E1061CA60E1B00D2D8E1 /* almacenamiento persistencia */;
+			targetProxy = A7A4E11F1CA60E1B00D2D8E1 /* PBXContainerItemProxy */;
+		};
+		A7A4E12B1CA60E1B00D2D8E1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A7A4E1061CA60E1B00D2D8E1 /* almacenamiento persistencia */;
+			targetProxy = A7A4E12A1CA60E1B00D2D8E1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		A7A4E10E1CA60E1B00D2D8E1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A4E10F1CA60E1B00D2D8E1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		A7A4E1161CA60E1B00D2D8E1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				A7A4E1171CA60E1B00D2D8E1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		A7A4E1301CA60E1B00D2D8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A7A4E1311CA60E1B00D2D8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A7A4E1331CA60E1B00D2D8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "almacenamiento persistencia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MeloSoft.almacenamiento-persistencia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		A7A4E1341CA60E1B00D2D8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "almacenamiento persistencia/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MeloSoft.almacenamiento-persistencia";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		A7A4E1361CA60E1B00D2D8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "almacenamiento persistenciaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MeloSoft.almacenamiento-persistenciaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/almacenamiento persistencia.app/almacenamiento persistencia";
+			};
+			name = Debug;
+		};
+		A7A4E1371CA60E1B00D2D8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "almacenamiento persistenciaTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MeloSoft.almacenamiento-persistenciaTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/almacenamiento persistencia.app/almacenamiento persistencia";
+			};
+			name = Release;
+		};
+		A7A4E1391CA60E1B00D2D8E1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "almacenamiento persistenciaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MeloSoft.almacenamiento-persistenciaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "almacenamiento persistencia";
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		A7A4E13A1CA60E1B00D2D8E1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "almacenamiento persistenciaUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "MeloSoft.almacenamiento-persistenciaUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "almacenamiento persistencia";
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A7A4E1021CA60E1B00D2D8E1 /* Build configuration list for PBXProject "almacenamiento persistencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A4E1301CA60E1B00D2D8E1 /* Debug */,
+				A7A4E1311CA60E1B00D2D8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A7A4E1321CA60E1B00D2D8E1 /* Build configuration list for PBXNativeTarget "almacenamiento persistencia" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A4E1331CA60E1B00D2D8E1 /* Debug */,
+				A7A4E1341CA60E1B00D2D8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7A4E1351CA60E1B00D2D8E1 /* Build configuration list for PBXNativeTarget "almacenamiento persistenciaTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A4E1361CA60E1B00D2D8E1 /* Debug */,
+				A7A4E1371CA60E1B00D2D8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		A7A4E1381CA60E1B00D2D8E1 /* Build configuration list for PBXNativeTarget "almacenamiento persistenciaUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A7A4E1391CA60E1B00D2D8E1 /* Debug */,
+				A7A4E13A1CA60E1B00D2D8E1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		A7A4E1111CA60E1B00D2D8E1 /* almacenamiento_persistencia.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				A7A4E1121CA60E1B00D2D8E1 /* almacenamiento_persistencia.xcdatamodel */,
+			);
+			currentVersion = A7A4E1121CA60E1B00D2D8E1 /* almacenamiento_persistencia.xcdatamodel */;
+			path = almacenamiento_persistencia.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = A7A4E0FF1CA60E1B00D2D8E1 /* Project object */;
+}
